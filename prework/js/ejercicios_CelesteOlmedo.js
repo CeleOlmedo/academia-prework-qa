@@ -2,8 +2,8 @@
 //Parte 1 - Variables y Tipos
 
 // Declaración de variables constantes y modificables
-const nombre = "Celeste";
-let edad = 25;
+const nombre = "Celeste"; //const se utiliza para valores que no cambian
+let edad = 25; //let se utiliza para valores que si cambian 
 let esEstudiante = true;
 let ubicacion = "Córdoba, Argentina";
 let telefono = "3178901234";
