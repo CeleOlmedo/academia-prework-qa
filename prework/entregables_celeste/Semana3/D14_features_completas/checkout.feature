@@ -50,12 +50,12 @@ Feature: Proceso de checkout
     When el usuario selecciona el método de pago "<metodo_pago>"
     And el usuario confirma el pago
     Then el sistema procesa el pago utilizando el método seleccionado
-    And el sistema confirma que el pago fue realizado correctamente
+    And el sistema confirma con un mensaje "<mensaje>" que el pago fue realizado correctamente
 
     Examples:
-      | metodo_pago        |
-      | tarjeta de crédito |
-      | tarjeta de débito  |
-      | transferencia      |
-      | billetera digital  |
+      | <metodo_pago>      | <mensaje>                                                 |
+      | tarjeta de crédito | "Tu pago fue realizado correctamente"                     |
+      | tarjeta de débito  | "Tu pago fue realizado correctamente"                     |
+      | transferencia      | "Solo admitimos pagos con tarjeta o billeteras digitales" |
+      | billetera digital  | "Tu pago fue realizado correctamente"                     |
 
