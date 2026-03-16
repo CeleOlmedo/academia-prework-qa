@@ -18,7 +18,6 @@ test('Navegar al detalle de un producto después de login', async ({ page }) => 
     await page.locator('[data-test="item-4-title-link"]').click();
     await expect(page.locator('.inventory_details_name')).toBeVisible();
 });
-
 test('Agregar producto al carrito y validar carrito', async ({ page }) => {
     await page.goto('https://www.saucedemo.com/');
     await page.locator('[data-test="username"]').fill('standard_user');
