@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bdd": "cucumber-js"
+    "bdd": "cucumber-js",
+    "bdd:logs": "cucumber-js --format progress --format summary",
+    "bdd:report:json": "node -e \"require('fs').mkdirSync('artifacts/reports',{recursive:true})\" && cucumber-js --format progress --format json:artifacts/reports/cucumber-report.json",
+    "bdd:report:junit": "node -e \"require('fs').mkdirSync('artifacts/reports',{recursive:true})\" && cucumber-js --format progress --format junit:artifacts/reports/cucumber-report.xml",
+    "bdd:report:html": "node scripts/generate-cucumber-html-report.js",
+    "bdd:report:share": "npm run bdd:report:json && npm run bdd:report:html"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +18,7 @@
   "devDependencies": {
     "@cucumber/cucumber": "^12.7.0",
     "@playwright/test": "^1.58.2",
-    "@types/node": "^25.4.0"
+    "@types/node": "^25.4.0",
+    "multiple-cucumber-html-reporter": "^3.10.0"
   }
 }

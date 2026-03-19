@@ -25,14 +25,11 @@ async function ensureOnProductsPage(page) {
 }
 
 async function selectSortOption(page, optionLabel) {
-  const sortSelect = page.getByRole('combobox');
-  await sortSelect.selectOption({ label: optionLabel });
-  // La tabla se re-renderiza en la misma página.
+  await page.getByRole('combobox').selectOption({ label: optionLabel });
   await page.waitForTimeout(300);
 }
 
 async function getInventoryPrices(page) {
-  // En SauceDemo los precios están en elementos con clase `.inventory_item_price`.
   const priceTexts = await page.locator('.inventory_item_price').allTextContents();
   return priceTexts
     .map((t) => t.replace('$', '').trim())
@@ -52,12 +49,56 @@ async function goToCart(page) {
   }
 }
 
-Given('estoy logueado en SauceDemo {string}', async function (url) {
-  await loginSauceDemo(this.page, url);
+// ---------------------------
+// Login (D24login.feature)
+// ---------------------------
+
+Given('estoy en la pantalla de login de SauceDemo {string}', async function (url) {
+  await this.open(url);
 });
 
-Given('el usuario está autenticado', async function () {
-  await loginSauceDemo(this.page, DEFAULT_URL);
+Given('el formulario de login es visible', async function () {
+  await expect(this.page.getByPlaceholder('Username')).toBeVisible();
+  await expect(this.page.getByPlaceholder('Password')).toBeVisible();
+  await expect(this.page.getByRole('button', { name: 'Login' })).toBeVisible();
+});
+
+When('inicio sesion con usuario {string} y password {string}', async function (username, password) {
+  await this.page.getByPlaceholder('Username').fill(username);
+  await this.page.getByPlaceholder('Password').fill(password);
+  await this.page.getByRole('button', { name: 'Login' }).click();
+});
+
+Then('veo la pagina de productos', async function () {
+  await expect(this.page).toHaveURL(/inventory\.html/);
+  await expect(this.page.getByText('Products')).toBeVisible();
+});
+
+Then('se muestra el listado de productos', async function () {
+  await expect(this.page.locator('.inventory_container')).toBeVisible();
+});
+
+When('ingresa username {string} y password {string}', async function (username, password) {
+  await this.page.getByPlaceholder('Username').fill(username);
+  await this.page.getByPlaceholder('Password').fill(password);
+});
+
+When('hace click en login', async function () {
+  await this.page.getByRole('button', { name: 'Login' }).click();
+});
+
+Then('se muestra el mensaje de error {string}', async function (errorText) {
+  const error = this.page.getByRole('heading', { name: errorText });
+  await expect(error).toBeVisible();
+  await expect(this.page).toHaveURL(DEFAULT_URL);
+});
+
+// ---------------------------
+// Ordenamiento (D24products.feature)
+// ---------------------------
+
+Given('estoy logueado en SauceDemo {string}', async function (url) {
+  await loginSauceDemo(this.page, url);
 });
 
 When('selecciona ordenar por precio de menor a mayor', async function () {
@@ -109,6 +150,10 @@ Then('los productos se muestran en orden alfabético descendente', async functio
     expect(normalized[i].localeCompare(normalized[i - 1], 'en', { sensitivity: 'base' })).toBeLessThanOrEqual(0);
   }
 });
+
+// ---------------------------
+// Carrito (D24cart_outline.feature)
+// ---------------------------
 
 When('agrego el producto {string} al carrito', async function (producto) {
   await ensureOnProductsPage(this.page);
