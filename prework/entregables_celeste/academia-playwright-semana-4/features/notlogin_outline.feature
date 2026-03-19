@@ -6,8 +6,6 @@ Feature: Login negativo
   Scenario Outline: Login con credenciales inválidas
     Given el usuario no está logueado
     And el usuario está en la página de login
-    Given el usuario no está logueado
-    And el usuario está en la página de login
     When ingresa username "<username>" y password "<password>"
     And hace click en login
     Then se muestra el mensaje de error "<error>"
