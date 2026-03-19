@@ -1,11 +1,18 @@
-Feature: Login negativo
+Feature: Login
   Como usuario de SauceDemo
-  Quiero ver un mensaje de error cuando ingreso credenciales inválidas
-  Para saber por qué no puedo iniciar sesión y corregir los datos
-
+  Quiero iniciar sesión en la aplicación
+  Para acceder al catálogo de productos si mis credenciales son válidas
+ 
+  Background:
+    And estoy en la pantalla de login de SauceDemo "https://www.saucedemo.com/"
+    And el formulario de login es visible
+ 
+  Scenario: Login válido
+    When inicio sesion con usuario "standard_user" y password "secret_sauce"
+    Then veo la pagina de productos
+    And se muestra el listado de productos
+ 
   Scenario Outline: Login con credenciales inválidas
-    Given el usuario no está logueado
-    And el usuario está en la página de login
     When ingresa username "<username>" y password "<password>"
     And hace click en login
     Then se muestra el mensaje de error "<error>"
