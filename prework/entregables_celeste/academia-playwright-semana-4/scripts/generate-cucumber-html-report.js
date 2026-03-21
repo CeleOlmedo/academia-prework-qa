@@ -1,6 +1,10 @@
-const path = require('path');
-const fs = require('fs');
-const reporter = require('multiple-cucumber-html-reporter');
+import path from 'path';
+import fs from 'fs';
+import reporter from 'multiple-cucumber-html-reporter';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const projectRoot = process.cwd();
 const reportsDir = path.join(projectRoot, 'artifacts', 'reports');

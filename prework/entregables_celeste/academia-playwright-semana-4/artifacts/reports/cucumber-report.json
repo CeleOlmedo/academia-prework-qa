@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 383423600
+              "duration": 488940499
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 7,
             "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:100"
+              "location": "features\\step_definitions\\D24.steps.js:98"
             },
             "result": {
               "status": "passed",
-              "duration": 634180500
+              "duration": 716010000
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 10,
             "name": "agrego el producto \"Sauce Labs Backpack\" al carrito",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:158"
+              "location": "features\\step_definitions\\D24.steps.js:156"
             },
             "result": {
               "status": "passed",
-              "duration": 26492499
+              "duration": 91179099
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 11,
             "name": "el carrito muestra el producto \"Sauce Labs Backpack\" con su precio \"29.99\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:171"
+              "location": "features\\step_definitions\\D24.steps.js:167"
             },
             "result": {
               "status": "passed",
-              "duration": 59857100
+              "duration": 193675000
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 288401499
+              "duration": 363057399
             }
           }
         ],
@@ -80,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 357556999
+              "duration": 592340000
             }
           },
           {
@@ -89,11 +89,11 @@
             "line": 7,
             "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:100"
+              "location": "features\\step_definitions\\D24.steps.js:98"
             },
             "result": {
               "status": "passed",
-              "duration": 640358600
+              "duration": 774044599
             }
           },
           {
@@ -102,11 +102,11 @@
             "line": 10,
             "name": "agrego el producto \"Sauce Labs Bike Light\" al carrito",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:158"
+              "location": "features\\step_definitions\\D24.steps.js:156"
             },
             "result": {
               "status": "passed",
-              "duration": 32775599
+              "duration": 36896699
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 11,
             "name": "el carrito muestra el producto \"Sauce Labs Bike Light\" con su precio \"9.99\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:171"
+              "location": "features\\step_definitions\\D24.steps.js:167"
             },
             "result": {
               "status": "passed",
-              "duration": 63813699
+              "duration": 104897200
             }
           },
           {
@@ -127,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 219286900
+              "duration": 284314900
             }
           }
         ],
@@ -146,7 +146,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 463989400
+              "duration": 470741500
             }
           },
           {
@@ -155,11 +155,11 @@
             "line": 7,
             "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:100"
+              "location": "features\\step_definitions\\D24.steps.js:98"
             },
             "result": {
               "status": "passed",
-              "duration": 638037500
+              "duration": 688573699
             }
           },
           {
@@ -168,11 +168,11 @@
             "line": 10,
             "name": "agrego el producto \"Sauce Labs Bolt T-Shirt\" al carrito",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:158"
+              "location": "features\\step_definitions\\D24.steps.js:156"
             },
             "result": {
               "status": "passed",
-              "duration": 29202500
+              "duration": 81543900
             }
           },
           {
@@ -181,11 +181,11 @@
             "line": 11,
             "name": "el carrito muestra el producto \"Sauce Labs Bolt T-Shirt\" con su precio \"15.99\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:171"
+              "location": "features\\step_definitions\\D24.steps.js:167"
             },
             "result": {
               "status": "passed",
-              "duration": 61533199
+              "duration": 137366199
             }
           },
           {
@@ -193,7 +193,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 212977199
+              "duration": 278597999
             }
           }
         ],
@@ -212,7 +212,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 385027700
+              "duration": 459989800
             }
           },
           {
@@ -221,11 +221,11 @@
             "line": 7,
             "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:100"
+              "location": "features\\step_definitions\\D24.steps.js:98"
             },
             "result": {
               "status": "passed",
-              "duration": 627627199
+              "duration": 693308500
             }
           },
           {
@@ -234,11 +234,11 @@
             "line": 10,
             "name": "agrego el producto \"Sauce Labs Fleece Jacket\" al carrito",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:158"
+              "location": "features\\step_definitions\\D24.steps.js:156"
             },
             "result": {
               "status": "passed",
-              "duration": 41344000
+              "duration": 84292000
             }
           },
           {
@@ -247,11 +247,11 @@
             "line": 11,
             "name": "el carrito muestra el producto \"Sauce Labs Fleece Jacket\" con su precio \"49.99\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:171"
+              "location": "features\\step_definitions\\D24.steps.js:167"
             },
             "result": {
               "status": "passed",
-              "duration": 46831599
+              "duration": 120477399
             }
           },
           {
@@ -259,7 +259,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 309950899
+              "duration": 283771399
             }
           }
         ],
@@ -278,7 +278,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 357330500
+              "duration": 474051700
             }
           },
           {
@@ -287,11 +287,11 @@
             "line": 7,
             "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:100"
+              "location": "features\\step_definitions\\D24.steps.js:98"
             },
             "result": {
               "status": "passed",
-              "duration": 598545000
+              "duration": 703104599
             }
           },
           {
@@ -300,11 +300,11 @@
             "line": 10,
             "name": "agrego el producto \"Sauce Labs Onesie\" al carrito",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:158"
+              "location": "features\\step_definitions\\D24.steps.js:156"
             },
             "result": {
               "status": "passed",
-              "duration": 71053499
+              "duration": 66300600
             }
           },
           {
@@ -313,11 +313,11 @@
             "line": 11,
             "name": "el carrito muestra el producto \"Sauce Labs Onesie\" con su precio \"7.99\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:171"
+              "location": "features\\step_definitions\\D24.steps.js:167"
             },
             "result": {
               "status": "passed",
-              "duration": 37653000
+              "duration": 93159399
             }
           },
           {
@@ -325,7 +325,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 212806399
+              "duration": 279181699
             }
           }
         ],
@@ -355,7 +355,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 372333499
+              "duration": 542501600
             }
           },
           {
@@ -364,11 +364,11 @@
             "line": 7,
             "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:56"
+              "location": "features\\step_definitions\\D24.steps.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 457005600
+              "duration": 472343799
             }
           },
           {
@@ -377,11 +377,11 @@
             "line": 8,
             "name": "el formulario de login es visible",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:60"
+              "location": "features\\step_definitions\\D24.steps.js:58"
             },
             "result": {
               "status": "passed",
-              "duration": 38690699
+              "duration": 48257099
             }
           },
           {
@@ -390,11 +390,11 @@
             "line": 11,
             "name": "inicio sesion con usuario \"standard_user\" y password \"secret_sauce\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:66"
+              "location": "features\\step_definitions\\D24.steps.js:64"
             },
             "result": {
               "status": "passed",
-              "duration": 154258100
+              "duration": 128449399
             }
           },
           {
@@ -403,11 +403,11 @@
             "line": 12,
             "name": "veo la pagina de productos",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:72"
+              "location": "features\\step_definitions\\D24.steps.js:70"
             },
             "result": {
               "status": "passed",
-              "duration": 7381400
+              "duration": 9523100
             }
           },
           {
@@ -416,11 +416,11 @@
             "line": 13,
             "name": "se muestra el listado de productos",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:77"
+              "location": "features\\step_definitions\\D24.steps.js:75"
             },
             "result": {
               "status": "passed",
-              "duration": 2430299
+              "duration": 4876900
             }
           },
           {
@@ -428,7 +428,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 220790799
+              "duration": 277200000
             }
           }
         ],
@@ -447,7 +447,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 379426799
+              "duration": 506211599
             }
           },
           {
@@ -456,11 +456,11 @@
             "line": 7,
             "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:56"
+              "location": "features\\step_definitions\\D24.steps.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 401328400
+              "duration": 449185900
             }
           },
           {
@@ -469,11 +469,11 @@
             "line": 8,
             "name": "el formulario de login es visible",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:60"
+              "location": "features\\step_definitions\\D24.steps.js:58"
             },
             "result": {
               "status": "passed",
-              "duration": 34460699
+              "duration": 38940300
             }
           },
           {
@@ -482,11 +482,11 @@
             "line": 16,
             "name": "ingresa username \"\" y password \"secret_sauce\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:81"
+              "location": "features\\step_definitions\\D24.steps.js:79"
             },
             "result": {
               "status": "passed",
-              "duration": 36012600
+              "duration": 30590000
             }
           },
           {
@@ -495,11 +495,11 @@
             "line": 17,
             "name": "hace click en login",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:86"
+              "location": "features\\step_definitions\\D24.steps.js:84"
             },
             "result": {
               "status": "passed",
-              "duration": 110933699
+              "duration": 112630699
             }
           },
           {
@@ -508,11 +508,11 @@
             "line": 18,
             "name": "se muestra el mensaje de error \"Epic sadface: Username is required\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:90"
+              "location": "features\\step_definitions\\D24.steps.js:88"
             },
             "result": {
               "status": "passed",
-              "duration": 5489599
+              "duration": 12752100
             }
           },
           {
@@ -520,7 +520,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 215399999
+              "duration": 296061400
             }
           }
         ],
@@ -539,7 +539,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 381855400
+              "duration": 487115499
             }
           },
           {
@@ -548,11 +548,11 @@
             "line": 7,
             "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:56"
+              "location": "features\\step_definitions\\D24.steps.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 429312599
+              "duration": 477437299
             }
           },
           {
@@ -561,11 +561,11 @@
             "line": 8,
             "name": "el formulario de login es visible",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:60"
+              "location": "features\\step_definitions\\D24.steps.js:58"
             },
             "result": {
               "status": "passed",
-              "duration": 44507099
+              "duration": 50390599
             }
           },
           {
@@ -574,11 +574,11 @@
             "line": 16,
             "name": "ingresa username \"standard_user\" y password \"\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:81"
+              "location": "features\\step_definitions\\D24.steps.js:79"
             },
             "result": {
               "status": "passed",
-              "duration": 27169499
+              "duration": 27808899
             }
           },
           {
@@ -587,11 +587,11 @@
             "line": 17,
             "name": "hace click en login",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:86"
+              "location": "features\\step_definitions\\D24.steps.js:84"
             },
             "result": {
               "status": "passed",
-              "duration": 96913200
+              "duration": 74160700
             }
           },
           {
@@ -600,11 +600,11 @@
             "line": 18,
             "name": "se muestra el mensaje de error \"Epic sadface: Password is required\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:90"
+              "location": "features\\step_definitions\\D24.steps.js:88"
             },
             "result": {
               "status": "passed",
-              "duration": 6148699
+              "duration": 8573800
             }
           },
           {
@@ -612,7 +612,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 211610099
+              "duration": 293873799
             }
           }
         ],
@@ -631,7 +631,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 367323900
+              "duration": 447063899
             }
           },
           {
@@ -640,11 +640,11 @@
             "line": 7,
             "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:56"
+              "location": "features\\step_definitions\\D24.steps.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 412504500
+              "duration": 474825300
             }
           },
           {
@@ -653,11 +653,11 @@
             "line": 8,
             "name": "el formulario de login es visible",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:60"
+              "location": "features\\step_definitions\\D24.steps.js:58"
             },
             "result": {
               "status": "passed",
-              "duration": 51444599
+              "duration": 46828700
             }
           },
           {
@@ -666,11 +666,11 @@
             "line": 16,
             "name": "ingresa username \"usuario_fake\" y password \"clave_fake\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:81"
+              "location": "features\\step_definitions\\D24.steps.js:79"
             },
             "result": {
               "status": "passed",
-              "duration": 30627099
+              "duration": 27987799
             }
           },
           {
@@ -679,11 +679,11 @@
             "line": 17,
             "name": "hace click en login",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:86"
+              "location": "features\\step_definitions\\D24.steps.js:84"
             },
             "result": {
               "status": "passed",
-              "duration": 117855900
+              "duration": 157363100
             }
           },
           {
@@ -692,11 +692,11 @@
             "line": 18,
             "name": "se muestra el mensaje de error \"Epic sadface: Username and password do not match any user in this service\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:90"
+              "location": "features\\step_definitions\\D24.steps.js:88"
             },
             "result": {
               "status": "passed",
-              "duration": 6719100
+              "duration": 9007400
             }
           },
           {
@@ -704,7 +704,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 231058699
+              "duration": 278236300
             }
           }
         ],
@@ -723,7 +723,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 357644599
+              "duration": 479946900
             }
           },
           {
@@ -732,11 +732,11 @@
             "line": 7,
             "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:56"
+              "location": "features\\step_definitions\\D24.steps.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 464154799
+              "duration": 487811799
             }
           },
           {
@@ -745,11 +745,11 @@
             "line": 8,
             "name": "el formulario de login es visible",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:60"
+              "location": "features\\step_definitions\\D24.steps.js:58"
             },
             "result": {
               "status": "passed",
-              "duration": 35019499
+              "duration": 50420799
             }
           },
           {
@@ -758,11 +758,11 @@
             "line": 16,
             "name": "ingresa username \"locked_out_user\" y password \"secret_sauce\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:81"
+              "location": "features\\step_definitions\\D24.steps.js:79"
             },
             "result": {
               "status": "passed",
-              "duration": 20859300
+              "duration": 26347099
             }
           },
           {
@@ -771,11 +771,11 @@
             "line": 17,
             "name": "hace click en login",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:86"
+              "location": "features\\step_definitions\\D24.steps.js:84"
             },
             "result": {
               "status": "passed",
-              "duration": 59211199
+              "duration": 98110100
             }
           },
           {
@@ -784,11 +784,11 @@
             "line": 18,
             "name": "se muestra el mensaje de error \"Epic sadface: Sorry, this user has been locked out.\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:90"
+              "location": "features\\step_definitions\\D24.steps.js:88"
             },
             "result": {
               "status": "passed",
-              "duration": 7906200
+              "duration": 7216300
             }
           },
           {
@@ -796,7 +796,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 226657100
+              "duration": 363046900
             }
           }
         ],
@@ -815,7 +815,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 362453199
+              "duration": 457051300
             }
           },
           {
@@ -824,11 +824,11 @@
             "line": 7,
             "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:56"
+              "location": "features\\step_definitions\\D24.steps.js:54"
             },
             "result": {
               "status": "passed",
-              "duration": 435900400
+              "duration": 476082800
             }
           },
           {
@@ -837,11 +837,11 @@
             "line": 8,
             "name": "el formulario de login es visible",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:60"
+              "location": "features\\step_definitions\\D24.steps.js:58"
             },
             "result": {
               "status": "passed",
-              "duration": 38995699
+              "duration": 50918000
             }
           },
           {
@@ -850,11 +850,11 @@
             "line": 16,
             "name": "ingresa username \"standard_user\" y password \"wrong_pass\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:81"
+              "location": "features\\step_definitions\\D24.steps.js:79"
             },
             "result": {
               "status": "passed",
-              "duration": 20497199
+              "duration": 24771299
             }
           },
           {
@@ -863,11 +863,11 @@
             "line": 17,
             "name": "hace click en login",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:86"
+              "location": "features\\step_definitions\\D24.steps.js:84"
             },
             "result": {
               "status": "passed",
-              "duration": 102734800
+              "duration": 83362100
             }
           },
           {
@@ -876,11 +876,11 @@
             "line": 18,
             "name": "se muestra el mensaje de error \"Epic sadface: Username and password do not match any user in this service\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:90"
+              "location": "features\\step_definitions\\D24.steps.js:88"
             },
             "result": {
               "status": "passed",
-              "duration": 6741699
+              "duration": 8533199
             }
           },
           {
@@ -888,7 +888,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 223573000
+              "duration": 286919799
             }
           }
         ],
@@ -918,7 +918,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 364964600
+              "duration": 463905200
             }
           },
           {
@@ -927,11 +927,11 @@
             "line": 7,
             "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:100"
+              "location": "features\\step_definitions\\D24.steps.js:98"
             },
             "result": {
               "status": "passed",
-              "duration": 615597099
+              "duration": 700137500
             }
           },
           {
@@ -940,11 +940,11 @@
             "line": 10,
             "name": "selecciona ordenar por precio de menor a mayor",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:104"
+              "location": "features\\step_definitions\\D24.steps.js:102"
             },
             "result": {
               "status": "passed",
-              "duration": 318799999
+              "duration": 321837200
             }
           },
           {
@@ -953,11 +953,11 @@
             "line": 11,
             "name": "los productos se muestran ordenados por precio ascendente",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:124"
+              "location": "features\\step_definitions\\D24.steps.js:122"
             },
             "result": {
               "status": "passed",
-              "duration": 16744000
+              "duration": 20409200
             }
           },
           {
@@ -965,7 +965,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 219117500
+              "duration": 308674899
             }
           }
         ],
@@ -984,7 +984,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 387474500
+              "duration": 492196299
             }
           },
           {
@@ -993,11 +993,11 @@
             "line": 7,
             "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:100"
+              "location": "features\\step_definitions\\D24.steps.js:98"
             },
             "result": {
               "status": "passed",
-              "duration": 637344199
+              "duration": 739683400
             }
           },
           {
@@ -1006,11 +1006,11 @@
             "line": 14,
             "name": "selecciona ordenar por precio de mayor a menor",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:109"
+              "location": "features\\step_definitions\\D24.steps.js:107"
             },
             "result": {
               "status": "passed",
-              "duration": 316504899
+              "duration": 331242099
             }
           },
           {
@@ -1019,11 +1019,11 @@
             "line": 15,
             "name": "los productos se muestran ordenados por precio descendente",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:131"
+              "location": "features\\step_definitions\\D24.steps.js:129"
             },
             "result": {
               "status": "passed",
-              "duration": 16890400
+              "duration": 25249199
             }
           },
           {
@@ -1031,7 +1031,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 238306699
+              "duration": 305800699
             }
           }
         ],
@@ -1050,7 +1050,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 396182899
+              "duration": 505555300
             }
           },
           {
@@ -1059,11 +1059,11 @@
             "line": 7,
             "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:100"
+              "location": "features\\step_definitions\\D24.steps.js:98"
             },
             "result": {
               "status": "passed",
-              "duration": 804027500
+              "duration": 748276600
             }
           },
           {
@@ -1072,11 +1072,11 @@
             "line": 18,
             "name": "selecciona ordenar por nombre A-Z",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:114"
+              "location": "features\\step_definitions\\D24.steps.js:112"
             },
             "result": {
               "status": "passed",
-              "duration": 313144599
+              "duration": 324815999
             }
           },
           {
@@ -1085,11 +1085,11 @@
             "line": 19,
             "name": "los productos se muestran en orden alfabético ascendente",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:138"
+              "location": "features\\step_definitions\\D24.steps.js:136"
             },
             "result": {
               "status": "passed",
-              "duration": 18612400
+              "duration": 27666399
             }
           },
           {
@@ -1097,7 +1097,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 270464499
+              "duration": 298602100
             }
           }
         ],
@@ -1116,7 +1116,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 467468499
+              "duration": 512297699
             }
           },
           {
@@ -1125,11 +1125,11 @@
             "line": 7,
             "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:100"
+              "location": "features\\step_definitions\\D24.steps.js:98"
             },
             "result": {
               "status": "passed",
-              "duration": 589918699
+              "duration": 780150400
             }
           },
           {
@@ -1138,11 +1138,11 @@
             "line": 22,
             "name": "selecciona ordenar por nombre Z-A",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:119"
+              "location": "features\\step_definitions\\D24.steps.js:117"
             },
             "result": {
               "status": "passed",
-              "duration": 317764600
+              "duration": 327413500
             }
           },
           {
@@ -1151,11 +1151,11 @@
             "line": 23,
             "name": "los productos se muestran en orden alfabético descendente",
             "match": {
-              "location": "features\\step_definitions\\D24.steps.js:146"
+              "location": "features\\step_definitions\\D24.steps.js:144"
             },
             "result": {
               "status": "passed",
-              "duration": 18576199
+              "duration": 26508299
             }
           },
           {
@@ -1163,7 +1163,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 319128400
+              "duration": 307283300
             }
           }
         ],
