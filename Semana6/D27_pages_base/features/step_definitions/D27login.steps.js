@@ -42,7 +42,7 @@ Then('veo la pagina de productos', async function () {
 Then('se muestra el listado de productos', async function () {
   // La verificación del contenedor ya está incluida en productsPage.isLoaded()
   // Este step queda como alias semántico para no romper el feature existente
-  await expect(this.page.locator('.inventory_container')).toBeVisible();
+  await expect(this.page.locator('.inventory_container')).toBeVisible(); 
 });
 
 // ---------------------------
@@ -52,11 +52,6 @@ Then('se muestra el listado de productos', async function () {
 When('ingresa username {string} y password {string}', async function (username, password) {
   // Reutilizamos loginPage instanciado en el Background
   await this.loginPage.login(username, password);
-});
-
-When('hace click en login', async function () {
-  // Este step queda vacío porque login() ya incluye el click.
-  // Se mantiene para no romper el feature existente con Scenario Outline.
 });
 
 Then('se muestra el mensaje de error {string}', async function (errorText) {

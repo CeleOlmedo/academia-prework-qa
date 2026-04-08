@@ -13,8 +13,7 @@ Feature: Login
     And se muestra el listado de productos
  
   Scenario Outline: Login con credenciales inválidas
-    When ingresa username "<username>" y password "<password>"
-    And hace click en login
+    When el usuario intenta ingresar con las credenciales username "<username>" y password "<password>" al sistema
     Then se muestra el mensaje de error "<error>"
  
     Examples:
