@@ -25,7 +25,16 @@ reporter.generate({
   reportName: 'Cucumber Test Report',
   pageTitle: 'Academia QA - Cucumber Report',
   displayDuration: true,
-  pageFooter: '<div>Academia QA — Celeste Olmedo</div>',  // tu nombre en el pie
+  pageFooter: '<div>Academia QA — Celeste Olmedo</div>',
+  customData: {
+    title: 'Información de ejecución',
+    data: [
+      { label: 'Proyecto', value: 'Academia QA' },
+      { label: 'Entrega', value: 'D27 — BasePage y primeras Pages' },
+      { label: 'Autor', value: 'Celeste Olmedo' },
+      { label: 'Fecha y hora', value: new Date().toLocaleString('es-AR', { timeZone: 'America/Argentina/Cordoba' }) },
+    ],
+  },
   metadata: {
     browser: { name: 'chromium', version: 'latest' },
     device: 'Local test machine',
@@ -33,8 +42,6 @@ reporter.generate({
       name: process.platform,
       version: process.version,
     },
-    executed: new Date().toLocaleString('es-AR', { timeZone: 'America/Argentina/Cordoba' }),
-    suite: 'D27 — BasePage y primeras Pages',   // identifica el día/entrega
   },
 });
 
