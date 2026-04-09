@@ -1,12 +1,155 @@
 [
   {
-    "description": "  Como usuario de SauceDemo\n  Quiero iniciar sesión en la aplicación\n  Para acceder al catálogo de productos si mis credenciales son válidas",
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "carrito-de-compras;agregar-un-producto-al-carrito",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Agregar un producto al carrito",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91113200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "estoy logueado en SauceDemo como \"standard_user\" con clave \"secret_sauce\"",
+            "match": {
+              "location": "features\\step_definitions\\common.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3196881999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "agrego el producto \"Sauce Labs Backpack\" al carrito",
+            "match": {
+              "location": "features\\step_definitions\\carrito.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33978500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "el carrito muestra el producto \"Sauce Labs Backpack\" con su precio \"29.99\"",
+            "match": {
+              "location": "features\\step_definitions\\carrito.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46286099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9726900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "carrito-de-compras;agregar-un-producto-al-carrito",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Agregar un producto al carrito",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67101399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "estoy logueado en SauceDemo como \"standard_user\" con clave \"secret_sauce\"",
+            "match": {
+              "location": "features\\step_definitions\\common.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453778199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "agrego el producto \"Sauce Labs Bike Light\" al carrito",
+            "match": {
+              "location": "features\\step_definitions\\carrito.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37476899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "el carrito muestra el producto \"Sauce Labs Bike Light\" con su precio \"9.99\"",
+            "match": {
+              "location": "features\\step_definitions\\carrito.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42515300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6128099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "carrito-de-compras",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Carrito de compras",
+    "tags": [],
+    "uri": "features\\carrito.feature"
+  },
+  {
+    "description": "",
     "elements": [
       {
         "description": "",
         "id": "login;login-válido",
         "keyword": "Scenario",
-        "line": 10,
+        "line": 6,
         "name": "Login válido",
         "steps": [
           {
@@ -14,72 +157,138 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 388706800
+              "duration": 66321899
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que navego a la página \"https://www.saucedemo.com/\"",
             "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:12"
+              "location": "features\\step_definitions\\common.steps.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 468690899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "el formulario de login es visible",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 39542100
+              "duration": 336676500
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 11,
-            "name": "inicio sesion con usuario \"standard_user\" y password \"secret_sauce\"",
+            "line": 7,
+            "name": "inicio sesión con el usuario \"standard_user\" y la contraseña \"secret_sauce\"",
             "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:29"
+              "location": "features\\step_definitions\\common.steps.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 129517100
+              "duration": 105994200
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+            "line": 8,
+            "name": "accedo al catálogo de productos",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4920500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "veo el listado de productos",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2476499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4580700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;usuario-bloqueado",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Usuario bloqueado",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53109300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que navego a la página \"https://www.saucedemo.com/\"",
+            "match": {
+              "location": "features\\step_definitions\\common.steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 366206400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
             "line": 12,
-            "name": "veo la pagina de productos",
+            "name": "inicio sesión con el usuario \"locked_out_user\" y la contraseña \"secret_sauce\"",
             "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:35"
+              "location": "features\\step_definitions\\common.steps.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 14842900
+              "duration": 85677099
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 13,
-            "name": "se muestra el listado de productos",
+            "name": "veo el mensaje de error \"Epic sadface: Sorry, this user has been locked out.\"",
             "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:42"
+              "location": "features\\step_definitions\\login.steps.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 6918999
+              "duration": 3762800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "permanezco en la pantalla de login",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3485499
             }
           },
           {
@@ -87,467 +296,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 362945400
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login;login-con-credenciales-inválidas",
-        "keyword": "Scenario Outline",
-        "line": 22,
-        "name": "Login con credenciales inválidas",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 438171800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 436848599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "el formulario de login es visible",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 40889400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 16,
-            "name": "ingresa username \"\" y password \"secret_sauce\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:52"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 122283400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "hace click en login",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:57"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 177599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "se muestra el mensaje de error \"Epic sadface: Username is required\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 5674100
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 202024200
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login;login-con-credenciales-inválidas",
-        "keyword": "Scenario Outline",
-        "line": 23,
-        "name": "Login con credenciales inválidas",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 432823300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 427361500
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "el formulario de login es visible",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 31120399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 16,
-            "name": "ingresa username \"standard_user\" y password \"\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:52"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 62010099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "hace click en login",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:57"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 77299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "se muestra el mensaje de error \"Epic sadface: Password is required\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 4299600
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 238964299
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login;login-con-credenciales-inválidas",
-        "keyword": "Scenario Outline",
-        "line": 24,
-        "name": "Login con credenciales inválidas",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 406451399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 427519400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "el formulario de login es visible",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 34837300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 16,
-            "name": "ingresa username \"usuario_fake\" y password \"clave_fake\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:52"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 112110499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "hace click en login",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:57"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 105700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "se muestra el mensaje de error \"Epic sadface: Username and password do not match any user in this service\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3645199
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 242227600
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login;login-con-credenciales-inválidas",
-        "keyword": "Scenario Outline",
-        "line": 25,
-        "name": "Login con credenciales inválidas",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 393343899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 447795100
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "el formulario de login es visible",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 33429200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 16,
-            "name": "ingresa username \"locked_out_user\" y password \"secret_sauce\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:52"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 93768399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "hace click en login",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:57"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 113000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "se muestra el mensaje de error \"Epic sadface: Sorry, this user has been locked out.\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3409700
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 243803800
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "login;login-con-credenciales-inválidas",
-        "keyword": "Scenario Outline",
-        "line": 26,
-        "name": "Login con credenciales inválidas",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 376211599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 7,
-            "name": "estoy en la pantalla de login de SauceDemo \"https://www.saucedemo.com/\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:12"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 427696099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "el formulario de login es visible",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 36342800
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 16,
-            "name": "ingresa username \"standard_user\" y password \"wrong_pass\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:52"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 124282300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "hace click en login",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:57"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 100099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 18,
-            "name": "se muestra el mensaje de error \"Epic sadface: Username and password do not match any user in this service\"",
-            "match": {
-              "location": "features\\step_definitions\\D27login.steps.js:62"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3747299
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 276071899
+              "duration": 5480899
             }
           }
         ],
@@ -560,129 +309,129 @@
     "keyword": "Feature",
     "name": "Login",
     "tags": [],
-    "uri": "features\\D27login.feature"
+    "uri": "features\\login.feature"
   },
   {
-    "description": "  Como usuario de SauceDemo\n  Quiero ordenar productos\n  Para verificar que el orden sea correcto",
+    "description": "",
     "elements": [
       {
         "description": "",
-        "id": "ordenamiento-de-productos;ordenar-productos-por-precio-de-menor-a-mayor",
+        "id": "ordenar-productos-en-saucedemo;ordenar-por-nombre-de-z-a-a",
         "keyword": "Scenario",
-        "line": 9,
-        "name": "Ordenar productos por precio de menor a mayor",
+        "line": 6,
+        "name": "Ordenar por nombre de Z a A",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 393565099
+              "duration": 117054099
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
-            "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
+            "line": 4,
+            "name": "estoy logueado en SauceDemo como \"standard_user\" con clave \"secret_sauce\"",
             "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:10"
+              "location": "features\\step_definitions\\common.steps.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 591825699
+              "duration": 436027800
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 10,
-            "name": "selecciona ordenar por precio de menor a mayor",
+            "line": 7,
+            "name": "ordeno los productos por \"za\"",
             "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:25"
+              "location": "features\\step_definitions\\ordenar.steps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 9986699
+              "duration": 9020100
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
+            "line": 8,
+            "name": "el primer producto es \"Test.allTheThings() T-Shirt (Red)\"",
+            "match": {
+              "location": "features\\step_definitions\\ordenar.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3080699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6098100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ordenar-productos-en-saucedemo;ordenar-por-precio-de-menor-a-mayor",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Ordenar por precio de menor a mayor",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53781599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "estoy logueado en SauceDemo como \"standard_user\" con clave \"secret_sauce\"",
+            "match": {
+              "location": "features\\step_definitions\\common.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 443158099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
             "line": 11,
-            "name": "los productos se muestran ordenados por precio ascendente",
+            "name": "ordeno los productos por \"lohi\"",
             "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:43"
+              "location": "features\\step_definitions\\ordenar.steps.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 21875200
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 229386499
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "ordenamiento-de-productos;ordenar-productos-por-precio-de-mayor-a-menor",
-        "keyword": "Scenario",
-        "line": 13,
-        "name": "Ordenar productos por precio de mayor a menor",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 410437900
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
-            "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 607399499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 14,
-            "name": "selecciona ordenar por precio de mayor a menor",
-            "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 9155399
+              "duration": 7956999
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
-            "name": "los productos se muestran ordenados por precio descendente",
+            "line": 12,
+            "name": "el primer precio es \"$7.99\"",
             "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:52"
+              "location": "features\\step_definitions\\ordenar.steps.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 26978900
+              "duration": 2653999
             }
           },
           {
@@ -690,139 +439,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 198560500
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "ordenamiento-de-productos;ordenar-productos-alfabéticamente-a-z",
-        "keyword": "Scenario",
-        "line": 17,
-        "name": "Ordenar productos alfabéticamente A-Z",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 381827199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
-            "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 616680599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 18,
-            "name": "selecciona ordenar por nombre A-Z",
-            "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:35"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 12379299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 19,
-            "name": "los productos se muestran en orden alfabético ascendente",
-            "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:59"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 22177700
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 212178799
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "ordenamiento-de-productos;ordenar-productos-alfabéticamente-z-a",
-        "keyword": "Scenario",
-        "line": 21,
-        "name": "Ordenar productos alfabéticamente Z-A",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 362116400
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
-            "name": "estoy logueado en SauceDemo \"https://www.saucedemo.com/\"",
-            "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:10"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 604421099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 22,
-            "name": "selecciona ordenar por nombre Z-A",
-            "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:39"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 11205399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 23,
-            "name": "los productos se muestran en orden alfabético descendente",
-            "match": {
-              "location": "features\\step_definitions\\D27products.steps.js:69"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 23078400
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 185143299
+              "duration": 5407200
             }
           }
         ],
@@ -830,11 +447,11 @@
         "type": "scenario"
       }
     ],
-    "id": "ordenamiento-de-productos",
+    "id": "ordenar-productos-en-saucedemo",
     "line": 1,
     "keyword": "Feature",
-    "name": "Ordenamiento de productos",
+    "name": "Ordenar productos en SauceDemo",
     "tags": [],
-    "uri": "features\\D27products.feature"
+    "uri": "features\\ordenar.feature"
   }
 ]
