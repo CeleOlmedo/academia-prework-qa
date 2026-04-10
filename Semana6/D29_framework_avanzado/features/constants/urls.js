@@ -1,5 +1,4 @@
 // constants/urls.js
-// Centralizamos las URLs para poder cambiar de ambiente fácilmente.
 
 export const URLS = {
   base: 'https://www.saucedemo.com',

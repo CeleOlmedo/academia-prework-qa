@@ -10,10 +10,9 @@ export class CheckoutOverviewPage extends BasePage {
 
   constructor(page) {
     super(page);
-    this.#itemPrices         = this.page.locator('.inventory_item_price');
-    this.#subtotalLabel      = this.page.locator('.summary_subtotal_label');
-    this.#finishButton       = this.page.getByRole('button', { name: 'Finish' });
-    // Movido desde el step: el locator vive en la Page, no en el step file
+    this.#itemPrices = this.page.locator('.inventory_item_price');
+    this.#subtotalLabel = this.page.locator('.summary_subtotal_label');
+    this.#finishButton = this.page.getByRole('button', { name: 'Finish' });
     this.#confirmationHeader = this.page.getByRole('heading', { name: 'Thank you for your order!' });
   }
 
@@ -32,7 +31,7 @@ export class CheckoutOverviewPage extends BasePage {
     const prices = priceTexts.map(text => parseFloat(text.replace('$', '')));
     const calculatedTotal = prices.reduce((acum, precio) => acum + precio, 0);
 
-    const subtotalText   = await this.#subtotalLabel.textContent();
+    const subtotalText = await this.#subtotalLabel.textContent();
     const displayedTotal = parseFloat(subtotalText.replace('Item total: $', ''));
 
     const totalRedondeado = Math.round(calculatedTotal * 100) / 100;

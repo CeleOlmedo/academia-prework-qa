@@ -8,10 +8,9 @@ export class CartPage extends BasePage {
 
   constructor(page) {
     super(page);
-    this.#cartItems      = this.page.locator('.cart_item');
+    this.#cartItems = this.page.locator('.cart_item');
     this.#checkoutButton = this.page.locator('[data-test="checkout"]');
 
-    // Composición: misma navbar reutilizada
     this.navbar = new NavbarComponent(page);
   }
 

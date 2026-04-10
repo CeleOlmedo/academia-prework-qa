@@ -9,9 +9,9 @@ export class CheckoutStep1Page extends BasePage {
 
   constructor(page) {
     super(page);
-    this.#firstNameInput = this.page.getByLabel('First Name');
-    this.#lastNameInput  = this.page.getByLabel('Last Name');
-    this.#zipInput       = this.page.getByLabel('Zip/Postal Code');
+    this.#firstNameInput = this.page.getByRole('textbox', { name: 'First Name' });
+    this.#lastNameInput = this.page.getByRole('textbox', { name: 'Last Name' });
+    this.#zipInput = this.page.getByRole('textbox', { name: 'Zip/Postal Code' });
     this.#continueButton = this.page.getByRole('button', { name: 'Continue' });
   }
 

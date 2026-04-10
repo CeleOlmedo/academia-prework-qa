@@ -11,11 +11,10 @@ export class ProductsPage extends BasePage {
   constructor(page) {
     super(page);
     this.#inventoryContainer = this.page.locator('.inventory_container');
-    this.#productNames       = this.page.locator('.inventory_item_name');
-    this.#productPrices      = this.page.locator('.inventory_item_price');
-    this.#sortContainer      = this.page.locator('[data-test="product-sort-container"]');
+    this.#productNames = this.page.locator('.inventory_item_name');
+    this.#productPrices = this.page.locator('.inventory_item_price');
+    this.#sortContainer = this.page.locator('[data-test="product-sort-container"]');
 
-    // Composición: la navbar vive acá, no duplicamos sus selectores en cada Page
     this.navbar = new NavbarComponent(page);
   }
 
@@ -47,7 +46,6 @@ export class ProductsPage extends BasePage {
     return this.#productPrices.first();
   }
 
-  /** Devuelve todos los precios como array de floats */
   async getAllPrices() {
     const rawPrices = await this.#productPrices.allTextContents();
     return rawPrices.map(p => parseFloat(p.replace('$', '')));

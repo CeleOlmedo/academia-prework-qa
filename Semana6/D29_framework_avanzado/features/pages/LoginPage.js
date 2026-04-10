@@ -13,12 +13,9 @@ export class LoginPage extends BasePage {
     super(page);
     this.#usernameInput = this.page.getByPlaceholder('Username');
     this.#passwordInput = this.page.getByPlaceholder('Password');
-    this.#loginButton   = this.page.getByRole('button', { name: 'Login' });
-    this.#errorMessage  = this.page.getByRole('heading', { name: /Epic sadface/ });
+    this.#loginButton = this.page.getByRole('button', { name: 'Login' });
+    this.#errorMessage = this.page.getByRole('heading', { name: /Epic sadface/ });
 
-    // La pantalla de login no muestra la navbar, pero instanciamos el componente
-    // para mantener consistencia con el resto de las Pages y porque tras un login
-    // exitoso la misma instancia de página podría necesitarla.
     this.navbar = new NavbarComponent(page);
   }
 

@@ -1,6 +1,4 @@
 // constants/messages.js
-// Centralizamos todos los textos fijos para facilitar el mantenimiento.
-// Si el sistema cambia un mensaje de error, solo se edita acá.
 
 export const ERRORS = {
   lockedOut: 'Epic sadface: Sorry, this user has been locked out.',
