@@ -19,6 +19,12 @@ if (!fs.existsSync(jsonReport)) {
 
 fs.mkdirSync(htmlDir, { recursive: true });
 
+// Limpiar el directorio HTML antes de generar
+if (fs.existsSync(htmlDir)) {
+  fs.rmSync(htmlDir, { recursive: true, force: true });
+}
+fs.mkdirSync(htmlDir, { recursive: true });
+
 reporter.generate({
   jsonDir: reportsDir,
   reportPath: htmlDir,
