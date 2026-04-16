@@ -1,0 +1,52 @@
+{
+  "name": "academia-playwright-semana-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cucumber.js",
+  "scripts": {
+    "prepare-run": "node scripts/prepare-run.mjs",
+    "pretest": "npm run prepare-run",
+    "prebdd": "npm run prepare-run",
+    "bdd": "cucumber-js --config cucumber.js",
+    "bdd:logs": "cucumber-js --config cucumber.js --format progress --format summary",
+    "test": "cross-env ENV=dev cucumber-js --config cucumber.js",
+    "test:dev": "npm run prepare-run && cross-env ENV=dev cucumber-js --config cucumber.js",
+    "test:staging": "npm run prepare-run && cross-env ENV=staging cucumber-js --config cucumber.js",
+    "test:dev:verbose": "npm run prepare-run && cross-env ENV=dev LOG_LEVEL=verbose cucumber-js --config cucumber.js",
+    "test:staging:verbose": "npm run prepare-run && cross-env ENV=staging LOG_LEVEL=verbose cucumber-js --config cucumber.js",
+    "test:debug": "npm run prepare-run && node scripts/run-cucumber-with-pw-api-log.mjs",
+    "bdd:report:json": "npm run prepare-run && cucumber-js --config cucumber.js",
+    "bdd:report:html": "node scripts/generate-cucumber-html-report.js",
+    "bdd:report:share": "npm run bdd:report:json && npm run bdd:report:html",
+    "allure:generate": "node scripts/generate-allure-report.js",
+    "allure:generate:single": "node scripts/generate-allure-report.js --single-file",
+    "allure:open": "node scripts/generate-allure-report.js --open",
+    "allure:serve": "npx allure serve allure-results",
+    "allure:report": "npm test && npm run allure:generate",
+    "allure:report:single": "npm test && npm run allure:generate:single",
+    "allure:report:debug": "npm run test:debug && npm run allure:generate",
+    "report:full": "npm test && npm run bdd:report:html && npm run allure:generate",
+    "evidence:zip": "node scripts/zip-evidence.mjs",
+    "screenshot:step": "npm run prepare-run && cross-env ENV=dev SCREENSHOT_EACH_STEP=true cucumber-js --config cucumber.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.6.0",
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.4.0",
+    "allure-commandline": "^2.38.1",
+    "allure-cucumberjs": "^2.15.0",
+    "allure-js-commons": "^2.15.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^17.4.2",
+    "multiple-cucumber-html-reporter": "^3.10.0",
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.15.0"
+  }
+}
