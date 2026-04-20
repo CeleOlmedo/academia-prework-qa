@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5210","El Item total es la suma de los precios de los productos en carrito","","2026-04-16","failed","2026-04-16","","El Item total es la suma de los precios de los productos en carrito","",""
+"","879","Login válido con usuario estándar","","2026-04-16","passed","2026-04-16","","Login válido con usuario estándar","",""
+"","5633","Login válido usando users.json","","2026-04-16","failed","2026-04-16","","Login válido usando users.json","",""
+"","582","Usuario bloqueado — mensaje desde constants/messages.js","","2026-04-16","passed","2026-04-16","","Usuario bloqueado — mensaje desde constants/messages.js","",""
+"","730","Comprar el primer producto visible usando Pages","","2026-04-16","passed","2026-04-16","","Comprar el primer producto visible usando Pages","",""

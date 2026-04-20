@@ -1,0 +1,33 @@
+# ─── Generados / entrega local (no versionar) ─────────────────────────────
+
+# Allure — resultados en raíz; reporte HTML bajo reports/
+allure-results/*
+!allure-results/.gitkeep
+
+# Reporte Allure generado + evidencias D32
+reports/allure-report/
+reports/logs/*.log
+!reports/logs/.gitkeep
+reports/logs/.last-pw-api-log
+reports/evidencias-job.zip
+reports/screenshots/*
+!reports/screenshots/.gitkeep
+
+# Cucumber JSON + HTML clásico (se regeneran con npm run bdd:report:*)
+artifacts/cucumber/cucumber-report.json
+artifacts/cucumber/html/
+
+# Logs de red por job (artifacts)
+artifacts/logs/*.log
+!artifacts/logs/.gitkeep
+
+# Carpeta legacy si alguien generó Allure en la raíz
+/allure-report/
+
+# Playwright Test (no usamos runner PW como principal)
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

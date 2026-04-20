@@ -1,0 +1,50 @@
+2026-04-16T03:58:33.450Z pw:api => page.goto started
+2026-04-16T03:58:33.452Z pw:api navigating to "https://www.saucedemo.com/", waiting until "load"
+2026-04-16T03:58:33.513Z pw:api   "commit" event fired
+2026-04-16T03:58:33.514Z pw:api   navigated to "https://www.saucedemo.com/"
+2026-04-16T03:58:33.714Z pw:api   "domcontentloaded" event fired
+2026-04-16T03:58:33.823Z pw:api   "load" event fired
+2026-04-16T03:58:33.824Z pw:api <= page.goto succeeded
+2026-04-16T03:58:33.826Z pw:api => locator.fill started
+2026-04-16T03:58:33.830Z pw:api waiting for getByPlaceholder('Username')
+2026-04-16T03:58:33.867Z pw:api   locator resolved to <input value="" type="text" id="user-name" name="user-name" autocorrect="off" data-test="username" autocapitalize="none" placeholder="Username" class="input_error form_input"/>
+2026-04-16T03:58:33.869Z pw:api   fill("standard_user")
+2026-04-16T03:58:33.869Z pw:api attempting fill action
+2026-04-16T03:58:33.870Z pw:api   waiting for element to be visible, enabled and editable
+2026-04-16T03:58:33.880Z pw:api <= locator.fill succeeded
+2026-04-16T03:58:33.881Z pw:api => locator.fill started
+2026-04-16T03:58:33.882Z pw:api waiting for getByPlaceholder('Password')
+2026-04-16T03:58:33.885Z pw:api   locator resolved to <input value="" id="password" type="password" name="password" autocorrect="off" data-test="password" autocapitalize="none" placeholder="Password" class="input_error form_input"/>
+2026-04-16T03:58:33.886Z pw:api   fill("secret_sauce_BAD")
+2026-04-16T03:58:33.886Z pw:api attempting fill action
+2026-04-16T03:58:33.886Z pw:api   waiting for element to be visible, enabled and editable
+2026-04-16T03:58:33.891Z pw:api <= locator.fill succeeded
+2026-04-16T03:58:33.892Z pw:api => locator.click started
+2026-04-16T03:58:33.892Z pw:api waiting for getByRole('button', { name: 'Login' })
+2026-04-16T03:58:33.899Z pw:api   locator resolved to <input type="submit" value="Login" id="login-button" name="login-button" data-test="login-button" class="submit-button btn_action"/>
+2026-04-16T03:58:33.900Z pw:api attempting click action
+2026-04-16T03:58:33.901Z pw:api   waiting for element to be visible, enabled and stable
+2026-04-16T03:58:33.931Z pw:api   element is visible, enabled and stable
+2026-04-16T03:58:33.931Z pw:api   scrolling into view if needed
+2026-04-16T03:58:33.933Z pw:api   done scrolling
+2026-04-16T03:58:33.939Z pw:api   performing click action
+2026-04-16T03:58:33.961Z pw:api   click action done
+2026-04-16T03:58:33.962Z pw:api   waiting for scheduled navigations to finish
+2026-04-16T03:58:33.963Z pw:api   navigations have finished
+2026-04-16T03:58:33.964Z pw:api <= locator.click succeeded
+2026-04-16T03:58:33.967Z pw:api => frame._expect started
+2026-04-16T03:58:33.969Z pw:api Expect "to.have.url" with timeout 5000ms
+2026-04-16T03:58:33.972Z pw:api   unexpected value "https://www.saucedemo.com/"
+2026-04-16T03:58:33.973Z pw:api   unexpected value "https://www.saucedemo.com/"
+2026-04-16T03:58:34.083Z pw:api   unexpected value "https://www.saucedemo.com/"
+2026-04-16T03:58:34.351Z pw:api   unexpected value "https://www.saucedemo.com/"
+2026-04-16T03:58:34.854Z pw:api   unexpected value "https://www.saucedemo.com/"
+2026-04-16T03:58:35.856Z pw:api   unexpected value "https://www.saucedemo.com/"
+2026-04-16T03:58:36.871Z pw:api   unexpected value "https://www.saucedemo.com/"
+2026-04-16T03:58:37.880Z pw:api   unexpected value "https://www.saucedemo.com/"
+2026-04-16T03:58:38.033Z pw:api   "networkidle" event fired
+2026-04-16T03:58:38.458Z pw:api => page.screenshot started
+2026-04-16T03:58:38.459Z pw:api taking page screenshot
+2026-04-16T03:58:38.462Z pw:api waiting for fonts to load...
+2026-04-16T03:58:38.464Z pw:api fonts loaded
+2026-04-16T03:58:38.506Z pw:api <= page.screenshot succeeded

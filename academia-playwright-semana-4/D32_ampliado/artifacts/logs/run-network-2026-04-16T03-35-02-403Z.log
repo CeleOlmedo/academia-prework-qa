@@ -1,0 +1,198 @@
+
+============================================================
+Ambiente: dev | baseUrl: https://www.saucedemo.com
+Escenario: El Item total es la suma de los precios de los productos en carrito
+
+→ GET https://www.saucedemo.com/
+← 200 https://www.saucedemo.com/
+→ GET https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+→ GET https://www.saucedemo.com/static/js/main.bcf4bc5f.js
+→ GET https://www.saucedemo.com/static/css/main.8a7d64a1.css
+← 200 https://www.saucedemo.com/static/css/main.8a7d64a1.css
+← 200 https://www.saucedemo.com/static/js/main.bcf4bc5f.js
+← 200 https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+→ POST https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN
+→ POST https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN
+→ GET https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2
+→ GET https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2
+→ GET https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2
+← 200 https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2
+← 200 https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2
+← 200 https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2
+→ GET https://www.saucedemo.com/static/media/menu3x.52cc17a327296e6394f33e8c20abc62c.svg
+→ GET https://www.saucedemo.com/static/media/close@3x.a30a8a1db39c69f50a19aa3c34876918.svg
+→ GET https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg
+→ GET https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg
+→ GET https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg
+→ GET https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg
+→ GET https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg
+→ GET https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg
+→ GET https://www.saucedemo.com/static/media/cart3x.3669d74ad0f420aa005c.svg
+→ GET https://www.saucedemo.com/static/media/filter3x.2943df5bcabfd174febc.svg
+→ GET https://www.saucedemo.com/static/media/arrow3x.4b825b78b4bd5f987b7d.svg
+← 200 https://www.saucedemo.com/static/media/close@3x.a30a8a1db39c69f50a19aa3c34876918.svg
+← 200 https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg
+← 200 https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg
+← 200 https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg
+← 200 https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg
+← 200 https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg
+← 200 https://www.saucedemo.com/static/media/menu3x.52cc17a327296e6394f33e8c20abc62c.svg
+← 200 https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg
+← 200 https://www.saucedemo.com/static/media/arrow3x.4b825b78b4bd5f987b7d.svg
+← 200 https://www.saucedemo.com/static/media/filter3x.2943df5bcabfd174febc.svg
+← 200 https://www.saucedemo.com/static/media/cart3x.3669d74ad0f420aa005c.svg
+→ GET https://www.saucedemo.com/static/media/menu3x.52cc17a327296e6394f33e8c20abc62c.svg
+→ GET https://www.saucedemo.com/static/media/close@3x.a30a8a1db39c69f50a19aa3c34876918.svg
+← 200 https://www.saucedemo.com/static/media/menu3x.52cc17a327296e6394f33e8c20abc62c.svg
+← 200 https://www.saucedemo.com/static/media/close@3x.a30a8a1db39c69f50a19aa3c34876918.svg
+
+============================================================
+Ambiente: dev | baseUrl: https://www.saucedemo.com
+Escenario: Comprar el primer producto visible usando Pages
+
+→ GET https://www.saucedemo.com/
+← 200 https://www.saucedemo.com/
+→ GET https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+→ GET https://www.saucedemo.com/static/js/main.bcf4bc5f.js
+→ GET https://www.saucedemo.com/static/css/main.8a7d64a1.css
+← 200 https://www.saucedemo.com/static/css/main.8a7d64a1.css
+← 200 https://www.saucedemo.com/static/js/main.bcf4bc5f.js
+← 200 https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+→ POST https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN
+→ POST https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN
+→ GET https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2
+→ GET https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2
+→ GET https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2
+← 200 https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2
+← 200 https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2
+← 200 https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2
+→ GET https://www.saucedemo.com/static/media/menu3x.52cc17a327296e6394f33e8c20abc62c.svg
+→ GET https://www.saucedemo.com/static/media/close@3x.a30a8a1db39c69f50a19aa3c34876918.svg
+→ GET https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg
+→ GET https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg
+→ GET https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg
+→ GET https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg
+→ GET https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg
+→ GET https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg
+→ GET https://www.saucedemo.com/static/media/cart3x.3669d74ad0f420aa005c.svg
+→ GET https://www.saucedemo.com/static/media/filter3x.2943df5bcabfd174febc.svg
+→ GET https://www.saucedemo.com/static/media/arrow3x.4b825b78b4bd5f987b7d.svg
+← 200 https://www.saucedemo.com/static/media/menu3x.52cc17a327296e6394f33e8c20abc62c.svg
+← 200 https://www.saucedemo.com/static/media/close@3x.a30a8a1db39c69f50a19aa3c34876918.svg
+← 200 https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg
+← 200 https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg
+← 200 https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg
+← 200 https://www.saucedemo.com/static/media/arrow3x.4b825b78b4bd5f987b7d.svg
+← 200 https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg
+← 200 https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg
+← 200 https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg
+← 200 https://www.saucedemo.com/static/media/cart3x.3669d74ad0f420aa005c.svg
+← 200 https://www.saucedemo.com/static/media/filter3x.2943df5bcabfd174febc.svg
+
+============================================================
+Ambiente: dev | baseUrl: https://www.saucedemo.com
+Escenario: Login válido usando users.json
+
+→ GET https://www.saucedemo.com/
+← 200 https://www.saucedemo.com/
+→ GET https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+→ GET https://www.saucedemo.com/static/js/main.bcf4bc5f.js
+→ GET https://www.saucedemo.com/static/css/main.8a7d64a1.css
+← 200 https://www.saucedemo.com/static/css/main.8a7d64a1.css
+← 200 https://www.saucedemo.com/static/js/main.bcf4bc5f.js
+← 200 https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+→ POST https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN
+→ POST https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN
+→ GET https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2
+→ GET https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2
+→ GET https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2
+← 200 https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2
+← 200 https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2
+← 200 https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2
+→ GET https://www.saucedemo.com/static/media/menu3x.52cc17a327296e6394f33e8c20abc62c.svg
+→ GET https://www.saucedemo.com/static/media/close@3x.a30a8a1db39c69f50a19aa3c34876918.svg
+→ GET https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg
+→ GET https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg
+→ GET https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg
+→ GET https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg
+→ GET https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg
+→ GET https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg
+→ GET https://www.saucedemo.com/static/media/cart3x.3669d74ad0f420aa005c.svg
+→ GET https://www.saucedemo.com/static/media/filter3x.2943df5bcabfd174febc.svg
+→ GET https://www.saucedemo.com/static/media/arrow3x.4b825b78b4bd5f987b7d.svg
+← 200 https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg
+← 200 https://www.saucedemo.com/static/media/menu3x.52cc17a327296e6394f33e8c20abc62c.svg
+← 200 https://www.saucedemo.com/static/media/close@3x.a30a8a1db39c69f50a19aa3c34876918.svg
+← 200 https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg
+← 200 https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg
+← 200 https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg
+← 200 https://www.saucedemo.com/static/media/filter3x.2943df5bcabfd174febc.svg
+← 200 https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg
+← 200 https://www.saucedemo.com/static/media/cart3x.3669d74ad0f420aa005c.svg
+← 200 https://www.saucedemo.com/static/media/arrow3x.4b825b78b4bd5f987b7d.svg
+← 200 https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg
+
+============================================================
+Ambiente: dev | baseUrl: https://www.saucedemo.com
+Escenario: Usuario bloqueado — mensaje desde constants/messages.js
+
+→ GET https://www.saucedemo.com/
+← 200 https://www.saucedemo.com/
+→ GET https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+→ GET https://www.saucedemo.com/static/js/main.bcf4bc5f.js
+→ GET https://www.saucedemo.com/static/css/main.8a7d64a1.css
+← 200 https://www.saucedemo.com/static/css/main.8a7d64a1.css
+← 200 https://www.saucedemo.com/static/js/main.bcf4bc5f.js
+← 200 https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+→ POST https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN
+→ POST https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN
+→ GET https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2
+→ GET https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2
+→ GET https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2
+← 200 https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2
+← 200 https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2
+← 200 https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2
+→ POST https://submit.backtrace.io/UNIVERSE/TOKEN/json
+
+============================================================
+Ambiente: dev | baseUrl: https://www.saucedemo.com
+Escenario: Login válido con usuario estándar
+
+→ GET https://www.saucedemo.com/
+← 200 https://www.saucedemo.com/
+→ GET https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+→ GET https://www.saucedemo.com/static/js/main.bcf4bc5f.js
+→ GET https://www.saucedemo.com/static/css/main.8a7d64a1.css
+← 200 https://www.saucedemo.com/static/css/main.8a7d64a1.css
+← 200 https://www.saucedemo.com/static/js/main.bcf4bc5f.js
+← 200 https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+→ POST https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN
+→ POST https://events.backtrace.io/api/summed-events/submit?universe=UNIVERSE&token=TOKEN
+→ GET https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2
+→ GET https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2
+→ GET https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2
+← 200 https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2
+← 200 https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2
+← 200 https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2
+→ GET https://www.saucedemo.com/static/media/menu3x.52cc17a327296e6394f33e8c20abc62c.svg
+→ GET https://www.saucedemo.com/static/media/close@3x.a30a8a1db39c69f50a19aa3c34876918.svg
+→ GET https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg
+→ GET https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg
+→ GET https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg
+→ GET https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg
+→ GET https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg
+→ GET https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg
+→ GET https://www.saucedemo.com/static/media/cart3x.3669d74ad0f420aa005c.svg
+→ GET https://www.saucedemo.com/static/media/filter3x.2943df5bcabfd174febc.svg
+→ GET https://www.saucedemo.com/static/media/arrow3x.4b825b78b4bd5f987b7d.svg
+← 200 https://www.saucedemo.com/static/media/menu3x.52cc17a327296e6394f33e8c20abc62c.svg
+← 200 https://www.saucedemo.com/static/media/close@3x.a30a8a1db39c69f50a19aa3c34876918.svg
+← 200 https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg
+← 200 https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg
+← 200 https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg
+← 200 https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg
+← 200 https://www.saucedemo.com/static/media/cart3x.3669d74ad0f420aa005c.svg
+← 200 https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg
+← 200 https://www.saucedemo.com/static/media/filter3x.2943df5bcabfd174febc.svg
+← 200 https://www.saucedemo.com/static/media/arrow3x.4b825b78b4bd5f987b7d.svg
+← 200 https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg
