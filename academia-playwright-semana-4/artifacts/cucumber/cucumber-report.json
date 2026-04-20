@@ -1,0 +1,213 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "api-booking-crud;autenticar-y-crear-una-reserva",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Autenticar y crear una reserva",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "estoy autenticado",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 853677599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "creo un booking",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203364999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "el booking se crea correctamente",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-booking-crud;consultar-una-reserva-existente",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Consultar una reserva existente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "existe un booking",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325597099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "consulto el booking",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:160"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162200100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "el booking se obtiene correctamente",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:170"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 190200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-booking-crud;actualizar-una-reserva-existente",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Actualizar una reserva existente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "existe un booking",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317377399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "actualizo el booking",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:180"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 216701799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "el booking se actualiza correctamente",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:202"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "api-booking-crud;eliminar-una-reserva-existente",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Eliminar una reserva existente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "existe un booking",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 411038299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "elimino el booking",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:211"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205366299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "el booking se elimina correctamente",
+            "match": {
+              "location": "file:\\C:\\Users\\ailin\\OneDrive\\Documentos\\GitHub\\academia-prework-qa\\academia-playwright-semana-4\\features\\step_definitions\\api.steps.js:222"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "api-booking-crud",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "API Booking CRUD",
+    "tags": [],
+    "uri": "features\\api.feature"
+  }
+]
